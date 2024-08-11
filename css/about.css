@@ -203,146 +203,6 @@ header button:hover {
   transition: 0.2s linear;
 }
 
-main .main__content {
-  margin-top: 150px;
-}
-@media (max-width: 767px) {
-  main .main__content {
-    text-align: center !important;
-  }
-}
-main .main__content h1 {
-  width: 526px;
-  height: 201px;
-  font-family: "Montserrat";
-  font-size: 55px;
-  font-weight: 700;
-  line-height: 67px;
-  color: #000000;
-}
-@media (max-width: 550px) {
-  main .main__content h1 {
-    width: 300px !important;
-    font-size: 40px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media (max-width: 545px) {
-  main .main__content h1 {
-    font-size: 20px;
-    text-align: center;
-  }
-}
-main .main__content h1 span {
-  font-family: "Montserrat";
-  font-size: 55px;
-  font-weight: 700;
-  line-height: 67px;
-  color: #F19100;
-}
-@media (max-width: 545px) {
-  main .main__content h1 span {
-    font-size: 20px;
-    text-align: center;
-  }
-}
-main .main__content p {
-  width: 537px;
-  height: 48px;
-  font-family: "Montserrat";
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 24px;
-  color: #000000;
-  margin-top: 20px;
-  margin-bottom: 70px;
-}
-@media (max-width: 550px) {
-  main .main__content p {
-    width: 300px !important;
-    font-size: 20px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-main .main__content .main__btns button {
-  width: 253px;
-  height: 63px;
-  background: #00095A;
-  border: none;
-  border-radius: 10px;
-  font-family: "Montserrat";
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24.38px;
-  color: #FFFFFF;
-}
-@media (max-width: 534px) {
-  main .main__content .main__btns button {
-    width: 200px;
-  }
-}
-@media (max-width: 429px) {
-  main .main__content .main__btns button {
-    width: 190px;
-  }
-}
-@media (max-width: 408px) {
-  main .main__content .main__btns button {
-    width: 150px;
-    font-size: 15px;
-  }
-}
-@media (max-width: 329px) {
-  main .main__content .main__btns button {
-    width: 140px;
-    font-size: 15px;
-  }
-}
-main .main__content .main__btns button:hover {
-  border: 1px solid #00095A;
-  background: none;
-  color: #000000;
-  font-weight: 700;
-  transition: 0.2s linear;
-}
-main .main__content .main__btns button:nth-last-of-type(1) {
-  background: #FFBC28;
-}
-main .main__content .main__btns button:hover:nth-last-of-type(1) {
-  border: 1px solid #FFBC28;
-  background: none;
-  color: #000000;
-  font-weight: 700;
-  transition: 0.2s linear;
-}
-main .zaffa-logo {
-  width: 556px;
-  height: 320px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #FFBC28;
-  border-radius: 20px;
-  border: 2px solid #FFFFFF;
-  rotate: 9.31;
-  position: relative;
-  left: 350px;
-  top: -350px;
-}
-@media (max-width: 1370px) {
-  main .zaffa-logo {
-    width: 400px !important;
-  }
-}
-@media (max-width: 1090px) {
-  main .zaffa-logo {
-    display: none;
-  }
-}
 main .people {
   display: flex;
   margin-top: 150px;
@@ -558,230 +418,6 @@ main .people .people__block {
     margin-left: -300px;
   }
 }
-main .course__title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-@media (max-width: 767px) {
-  main .course__title {
-    margin-top: -20px;
-  }
-}
-main .course__title h2 {
-  width: 372px;
-  height: 67px;
-  font-family: "Montserrat";
-  font-size: 55px;
-  font-weight: 700;
-  line-height: 67.05px;
-  color: #00095A;
-}
-@media (max-width: 767px) {
-  main .course__title h2 {
-    font-size: 30px;
-  }
-}
-main .course__title span {
-  font-family: "Montserrat";
-  font-size: 55px;
-  font-weight: 700;
-  line-height: 67.05px;
-  color: #F19100;
-}
-@media (max-width: 767px) {
-  main .course__title span {
-    font-size: 30px;
-  }
-}
-main .course__content {
-  display: grid;
-  grid-template-columns: repeat(3, 6fr);
-  place-items: center;
-}
-@media (max-width: 991px) {
-  main .course__content {
-    grid-template-columns: repeat(2, 6fr);
-  }
-}
-@media (max-width: 767px) {
-  main .course__content {
-    gap: 30px;
-  }
-}
-@media (max-width: 750px) {
-  main .course__content {
-    grid-template-columns: repeat(1, 6fr);
-  }
-}
-main .course__content .course__info {
-  width: 287px;
-  height: 300px;
-  border: 2px solid #270098;
-  background: rgba(255, 255, 255, 0.3019607843);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 10px;
-  margin-top: 50px;
-  transition: 0.2s linear;
-}
-@media (max-width: 490px) {
-  main .course__content .course__info {
-    width: 300px;
-    height: 300px;
-  }
-}
-main .course__content .course__info h2 {
-  width: 266px;
-  height: 37px;
-  font-family: "Montserrat";
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 36px;
-  color: #00095A;
-  position: relative;
-  left: 15px;
-}
-main .course__content .course__info .course__info-info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-main .course__content .course__info .course__info-info .course__info-bg {
-  width: 43px;
-  height: 43px;
-}
-main .course__content .course__info .course__info-info .course__info-icon {
-  width: 22px;
-  height: 22px;
-  margin-left: 150px;
-}
-main .course__content .course__info .course__info-info p {
-  width: 29px;
-  height: 22px;
-  font-family: "Montserrat";
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21px;
-  color: #000000;
-  position: relative;
-  top: 10px;
-  left: 10px;
-}
-main .course__content .course__info .course__block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.2s linear;
-}
-main .course__content .course__info .course__block img {
-  width: 30px;
-  height: 30px;
-  color: #000A68;
-}
-main .course__content .course__info .course__block p {
-  width: 200px;
-  height: 24px;
-  font-family: "Montserrat";
-  font-weight: 700;
-  font-size: 20px;
-  color: #000000;
-  position: relative;
-  top: 5px;
-  left: 10px;
-}
-main .course__content .course__info button {
-  border: none;
-  background: none;
-  width: 136px;
-  height: 27px;
-  font-family: "Montserrat";
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 26.82px;
-  color: #000000;
-  margin-left: -70px;
-  position: relative;
-}
-main .course__content .course__info .btn__img {
-  position: relative;
-  left: 50px;
-  top: -3px;
-}
-main .course__content .course__block:nth-last-of-type(2) {
-  position: relative;
-  top: -5px;
-}
-main .course__content .course__block:nth-last-of-type(3) {
-  position: relative;
-  top: 10px;
-}
-main .course__content .course__info:hover {
-  background-image: url(../img/Front-end.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 400px;
-  height: 300px;
-  transition: 0.2s linear;
-}
-main .course__content .course__info:hover .course__block:nth-last-of-type(2) {
-  position: relative;
-  left: 120px;
-  top: -30px;
-  transition: 0.2s linear;
-}
-@media (max-width: 490px) {
-  main .course__content .course__info:hover .course__block:nth-last-of-type(2) {
-    position: relative;
-    left: -10px;
-    top: 10px;
-  }
-}
-main .course__content .course__info:hover .course__block:nth-last-of-type(3) {
-  position: relative;
-  left: -60px;
-  top: 30px;
-  transition: 0.2s linear;
-}
-@media (max-width: 490px) {
-  main .course__content .course__info:hover .course__block:nth-last-of-type(3) {
-    position: relative;
-    left: -10px;
-  }
-}
-@media (max-width: 490px) {
-  main .course__content .course__info:hover {
-    width: 300px;
-    height: 300px;
-  }
-}
-main .course__content .course__info-bg:nth-last-of-type(2) {
-  width: 100px;
-  height: 200px;
-  border-radius: 50%;
-}
-main .course__content h2:nth-last-of-type(1) {
-  width: 300px;
-  font-size: 22px;
-}
-main .course__content .course__info:hover:nth-last-of-type(1) {
-  background-image: url(../img/Russian-Bg.jpg);
-}
-main .course__content .course__info:hover:nth-last-of-type(2) {
-  background-image: url(../img/English-Bg.jpg);
-}
-main .course__content .course__info:hover:nth-last-of-type(3) {
-  background-image: url(../img/Accounting.jpg);
-}
-main .course__content .course__info:hover:nth-last-of-type(4) {
-  background-image: url(../img/Computer-Bg.png);
-}
-main .course__content .course__info:hover:nth-last-of-type(5) {
-  background-image: url(../img/Back-end.jpg);
-}
 main .text__title {
   display: flex;
   justify-content: center;
@@ -833,11 +469,9 @@ main .number .numbers {
   grid-template-columns: repeat(4, 1fr);
   place-items: center;
 }
-@media (max-width: 1999px) {
+@media (max-width: 1135px) {
   main .number .numbers {
-    text-align: center;
-    grid-template-columns: repeat(2, 4fr);
-    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (max-width: 560px) {
@@ -1028,7 +662,7 @@ main .info .info__info .info__content {
     height: 360px;
   }
 }
-@media (max-width: 410px) {
+@media (max-width: 350px) {
   main .info .info__info .info__content {
     width: 300px;
     height: 300px;
@@ -1120,98 +754,6 @@ main .info .info__info input:hover {
   background: #00095A;
   transition: 0.2s linear;
 }
-main .web {
-  margin-top: 89px;
-}
-main .web .web__title h2 {
-  font-family: "Montserrat";
-  font-size: 55px;
-  font-weight: 700;
-  line-height: 67px;
-  text-align: center;
-  color: #000A68;
-}
-main .web .web__title span {
-  font-family: "Montserrat";
-  font-size: 55px;
-  font-weight: 700;
-  line-height: 67px;
-  color: #F19100;
-}
-main .web .web__content {
-  display: grid;
-  grid-template-columns: repeat(3, 3fr);
-  place-items: center;
-  gap: 20px;
-}
-@media (max-width: 1342px) {
-  main .web .web__content {
-    grid-template-columns: repeat(1, 3fr);
-  }
-}
-@media (max-width: 820px) {
-  main .web .web__content {
-    grid-template-columns: repeat(1, 3fr);
-  }
-}
-main .web .web__content .web__info {
-  width: 370px;
-  height: 410px;
-  background: #F5F5F5;
-  border: none;
-  border-radius: 25px;
-  transition: 0.2s linear;
-  margin-top: 111px;
-}
-@media (max-width: 380px) {
-  main .web .web__content .web__info {
-    width: 300px;
-    height: 300px;
-  }
-}
-main .web .web__content .web__info p {
-  width: 253px;
-  height: 53px;
-  font-family: "Montserrat";
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 26px;
-  text-align: left;
-  color: #252525;
-  position: relative;
-  top: 50px;
-  left: 20px;
-}
-@media (max-width: 380px) {
-  main .web .web__content .web__info p {
-    text-align: center;
-  }
-}
-main .web .web__content .web__info img {
-  position: relative;
-  top: 50px;
-}
-@media (max-width: 380px) {
-  main .web .web__content .web__info img {
-    width: 200px;
-  }
-}
-main .web .web__content .web__info:hover {
-  border: 3px solid #00095A;
-  transition: 0.2s linear;
-}
-main .web .web__content .web__info:nth-of-type(1) img {
-  position: relative;
-  left: 20px;
-}
-main .web .web__content .web__info:nth-of-type(2) img {
-  position: relative;
-  left: 20px;
-}
-main .web .web__content .web__info:nth-of-type(3) img {
-  position: relative;
-  left: 50px;
-}
 main .contacts .contacts__content {
   margin-top: 163px;
 }
@@ -1227,12 +769,6 @@ main .contacts .contacts__content {
   main .contacts .contacts__content {
     position: relative;
     left: -20px;
-  }
-}
-@media (max-width: 400px) {
-  main .contacts .contacts__content {
-    margin-right: auto;
-    margin-left: auto;
   }
 }
 main .contacts .contacts__content h2 {
@@ -1516,8 +1052,8 @@ main .map iframe {
   main .map iframe {
     position: relative;
     left: -10px;
-    left: 5px;
-    width: 400px;
+    left: 15px;
+    width: 300px;
   }
 }
 @media (max-width: 400px) {
@@ -1847,7 +1383,6 @@ footer .footer__nav .footer__content-nav:nth-last-of-type(1) {
 footer .footer__nav .footer__content-nav:nth-last-of-type(2) {
   position: relative;
   left: 50px;
-  top: -15px;
 }
 @media (max-width: 480px) {
   footer .footer__nav .footer__content-nav:nth-last-of-type(2) {
@@ -1858,4 +1393,4 @@ footer .footer__nav .footer__content-nav:nth-last-of-type(2) {
 footer .footer__nav ul:nth-last-of-type(1) {
   position: relative;
   top: 10px;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=about.css.map */
